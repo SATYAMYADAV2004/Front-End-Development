@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+
+    <style>
+        .red 
+        {
+            background-color: red;
+        }
+
+        #green
+        {
+            background-color: green;
+        }
+
+        div>p
+        {
+            background: rgb(130, 38, 38);
+        }
+        div > p > span
+        {
+            background: yellow;
+        }
+        
+        a:visited
+        {
+            color: orange;
+        }
+
+        a:hover
+        {
+            color: brown;
+        }
+
+        a:link
+        {
+            color: purple;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="red">
+         I'm a div in class red 
+
+         <p>
+            I'm a paragraph inside div
+            <span>I'm a span inside paragraph inside div</span>
+        </p>
+
+    </div>
+
+    <div>
+        I'm div 2 without class red
+    </div>
+
+    <div id="green" >
+       I'm  div 3 with id tag class red
+    </div>
+
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">Facebook</a>c 
+
+ 
+
+</body>
+
+</html>

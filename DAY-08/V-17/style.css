@@ -1,0 +1,36 @@
+.yellow {
+            color: yellowgreen;
+            background: #000;
+        }
+
+        #pink {
+            color: pink;
+            background: #000;
+        }
+
+        div>article {
+            color: orange;
+            background: #000;
+        } 
+
+
+
+
+           <span class="yellow">
+         I'm a span 
+        </span>
+
+    <p id="pink"> 
+        I'm a paragraph 
+    </p>
+
+    <article> 
+        I'm an article 
+    </article>
+
+        <div class="green">
+        I'm a div in green
+        <article> 
+            I'm an article in a div 
+        </article>
+    </div>
